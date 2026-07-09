@@ -1,24 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
 
-/* Your CSS Code here. */
+nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: blue;
+}
+
+img {
+    margin: 20px 0;
+    border-radius: 8px;
+}
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: content;
-  background-color: #f1f1f1;
-  display: flex;
-}
-
-li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link and background color on hover */
-li a:hover {
-  background-color: #555555;
-  color: white;
+    margin-top: 10px;
 }

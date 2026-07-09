@@ -8,20 +8,32 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Navigation bar</h1>
-	<ul>
-	  <li><a href="default.asp">Home</a></li>
-	  <li><a href="news.asp">News</a></li>
-	  <li><a href="contact.asp">Contact</a></li>
-	  <li><a href="about.asp">About</a></li>
-	</ul>
-	<img src="./abc.jpg" alt="Image" />
-	<p>I am Description, I am Description, I am Description, I am Description, I am Description</p>
-    <ol>
-		<li>I am first item</li>
-		<li>I am second item</li>
-		<li>I am third item</li>
-	</ol>
+	<!-- Heading -->
+    <h1 role="heading">My Portfolio</h1>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+	
+	<img src="./abc.jpg" alt="Profile Image" />
+	 <!-- Description -->
+    <section id="about">
+        <p>
+            Hello! I am a web developer passionate about creating accessible
+            and responsive websites using HTML, CSS, and JavaScript.
+        </p>
+    </section>
+    <!-- List -->
+    <h2>Skills</h2>
+
+    <ul role="list">
+        <li role="listitem">HTML</li>
+        <li role="listitem">CSS</li>
+        <li role="listitem">JavaScript</li>
+    </ul>
 	<script type="text/javascript" src="./script.js">
 </script>
 
